@@ -1,8 +1,0 @@
-sourses:
-  - name: demo_src
-    database: dbt_practice
-    shema: demo_src
-      tables:
-        - name: aircrafts
-        - name: airports
-        - name: seats
