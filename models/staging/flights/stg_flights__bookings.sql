@@ -1,6 +1,13 @@
 {{
   config(
-    materialized = 'table'
+    materialized = 'materialized_view',
+    on_configuration_change = 'fail',
+    indexes = [
+            {
+                "columns": ["book_date"],
+                "unique": False
+            }
+        ]
     )
 }}
 select

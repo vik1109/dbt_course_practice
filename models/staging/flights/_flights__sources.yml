@@ -13,6 +13,7 @@ sources:
             description: Дальность полета
       - name: aircrafts_data
       - name: airports
+        description: Аэропорты
       - name: airports_data
       - name: boarding_passes
       - name: bookings
@@ -37,5 +38,6 @@ sources:
       - name: flights_v
       - name: routes
       - name: seats
+        description: Места в самолете
       - name: ticket_flights
       - name: tickets
